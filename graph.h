@@ -11,7 +11,7 @@ using namespace std;
 class Graph{
 
 	int V; //# of vertices
-	list<int> *adj; //adjacency list, or an array of linked lists
+	list<int> *adj; //adjacency list
 	bool* visited;
 	Graph(int v){
 		V = v;
