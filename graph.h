@@ -17,9 +17,7 @@ class Graph{
 		V = v;
 		adj = new list<int>[V];
 		visited = new bool[V];
-		for (int i = 0; i < V; ++i){
-			visited[i] = 0;
-		}
+		for (int i = 0; i < V; ++i) visited[i] = 0;
 	}
 	void AddEdge(int v, int w){ //add w to v's list
 		adj[v].push_back(w);
