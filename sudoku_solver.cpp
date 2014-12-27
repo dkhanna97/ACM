@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
-/*Devruth Khanna
+/*
 Sudoku Solver
 Uses Backtracking/Constraint satisfaction algo to solve sudoku puzzle of any difficulty.
 */
