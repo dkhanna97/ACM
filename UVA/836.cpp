@@ -8,8 +8,6 @@
 using namespace std;
 
 /// http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=777
-////not ACC for this one. no idea why. Tried all trivial and nontrivial test cases (see below)
-//// must be an i/o issue. extra blank line or some shit like that
 
 
 int MaxRec(vector<vector<int>> matrix){
